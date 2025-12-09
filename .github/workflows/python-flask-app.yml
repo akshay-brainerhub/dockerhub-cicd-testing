@@ -31,7 +31,7 @@ jobs:
   
   build-and-publish:
     needs: build-and-test
-    runs-on: ubantu-latest
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
